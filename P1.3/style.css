@@ -8,9 +8,11 @@ html{
     padding: 50px;
 }
 header{
-    background-image: url('Circle.jpg');
+    background-image: url('Circle.png');
+    background-size: 750px;
   background-repeat: no-repeat;
-  background-position: center --50px; 
+  background-position:  center -450px;
+  padding: 0 100px 200px 100px;
 }
 main{
     width: 400px;
