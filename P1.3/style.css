@@ -16,7 +16,7 @@ a{
     color: hotpink;
 }
 #kontaktformular{
-   border: 10px rgba(rgb(138, 63, 63), green, blue, alpha);
+   border: 10px rgb(255, 209, 124);
    outline-style: groove;
 }
 .footerlink{
