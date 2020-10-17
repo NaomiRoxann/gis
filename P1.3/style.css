@@ -1,5 +1,5 @@
 html{
-background-image: url(bg.png) repeat;
+background-image: url(bg.png);
 }
 h1{
     color: slateblue;
@@ -19,7 +19,11 @@ a{
    border: 10px rgb(255, 209, 124);
    outline-style: groove;
 }
-.footerlink{
+nav{
+    background-color: black;
+    
+}
+.navlink{
     color: indigo;
     text-decoration: underline;
     margin: 10px 50px 50px 0px;
