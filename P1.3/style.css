@@ -28,11 +28,7 @@ a{
 }
 
 
-#kontaktformular{
-    border-style: groove;
-    border-width: 5px;
-  border-color: rgb(144, 144, 255);
-}
+
 
 .Menu{
     position: fixed;
@@ -60,20 +56,29 @@ a{
     background-color: transparent;
     padding: 0 0 0 10px;
 }
+#kontaktformular{
+    border-style: groove;
+    border-width: 5px;
+  border-color: rgb(144, 144, 255);
+  padding: 20px;
+}
 input{
+    font-size: 20px;
     background-color: rgb(177, 177, 177);
-    /*placeholder: black*/
 }
 textarea{
+    font-size: 20px;
+    width: 500px;
     background-color: rgb(177, 177, 177);
+    color: honeydew;
 }
 #grey{
     color: grey;
     font-size: 8px;
 }
-/*.placeholder{
-    color: rgb(255, 170, 0);
-}*/
+::placeholder {
+  color: rgb(255, 206, 133);
+}
 ul{
     column-count: 4;
     column-width: 20px;
