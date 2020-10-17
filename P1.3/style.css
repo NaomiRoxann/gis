@@ -65,8 +65,8 @@ a{
 #kontaktformular{
     border-style: groove;
     border-width: 5px;
-  border-color: rgb(144, 144, 255);
-  padding: 20px;
+    border-color: rgb(144, 144, 255);
+    padding: 20px;
 }
 input{
     font-size: 20px;
@@ -74,7 +74,7 @@ input{
 }
 textarea{
     font-size: 20px;
-    width: auto;
+    width: 100%;
     background-color: rgb(177, 177, 177);
     color: honeydew;
 }
