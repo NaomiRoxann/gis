@@ -1,5 +1,5 @@
 html{
-    background-image: linear-gradient(45deg, rgba(252, 196, 255, 0.31), rgba(255, 220, 160, 0.303));
+    background-image: linear-gradient(0deg, rgba(252, 196, 255, 0.31), rgba(255, 220, 160, 0.303));
 }
 h1{
     color: slateblue;
@@ -16,8 +16,8 @@ a{
     color: hotpink;
 }
 #kontaktformular{
-   background-color: rgba(0,255,255,0.1);
-
+   border: 10px rgba(rgb(138, 63, 63), green, blue, alpha);
+   outline-style: groove;
 }
 .footerlink{
     color: indigo;
