@@ -26,10 +26,13 @@ a{
     
 }
 .navlink{
-    color: indigo;
+    color: rgb(221, 174, 255);
     text-decoration: underline;
     margin: 10px 50px 50px 0px;
     
+}
+.navlink:hover{
+    color: darkgoldenrod;
 }
 .grey{
     background-color: lightgray;
