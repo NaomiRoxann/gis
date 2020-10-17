@@ -19,7 +19,7 @@ a{
    border: 10px rgb(255, 209, 124);
    outline-style: groove;
 }
-nav{
+#Portfolionav{
     position: -webkit-sticky; /* Safari */
     top: 0;
     background-color: black;
