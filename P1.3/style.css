@@ -20,6 +20,8 @@ a{
    outline-style: groove;
 }
 nav{
+    position: -webkit-sticky; /* Safari */
+    top: 0;
     background-color: black;
     
 }
