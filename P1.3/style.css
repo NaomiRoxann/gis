@@ -26,15 +26,7 @@ a{
     text-decoration: none;
     color: hotpink;
 }
-ul{
-    column-count: 4;
-    column-width: 20px;
-    list-style-type: none;
-}
-li{
-    padding: 10px;
-    -webkit-column-break-inside: avoid;
-}
+
 
 #kontaktformular{
     border-style: groove;
@@ -73,4 +65,13 @@ li{
 }
 .placeholder{
     color: floralwhite;
+}
+ul{
+    column-count: 4;
+    column-width: 20px;
+    list-style-type: none;
+}
+li{
+    padding: 10px;
+    -webkit-column-break-inside: avoid;
 }
