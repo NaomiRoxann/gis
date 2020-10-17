@@ -10,7 +10,7 @@ body{
     padding: 50px;
 }
 main{
-    padding: 20px;
+    padding: 0 0 0 20px;
 }
 h1{
     color: slateblue;
@@ -20,21 +20,29 @@ h1{
 h3{
     color: coral;
     text-transform: capitalize;
+    padding: 50px 0 0 0;
 }
 a{
     text-decoration: none;
     color: hotpink;
 }
-li{
+ul{
+    column-count: 4;
+    column-width: 20px;
     list-style-type: none;
-    
 }
-#kontaktformular{
-   border: 10px rgb(255, 209, 124);
-   outline-style: groove;
+li{
+    padding: 10px;
+    -webkit-column-break-inside: avoid;
 }
 
-nav{
+#kontaktformular{
+    border-style: groove;
+      border-width: 5px;
+  border-color: rgb(144, 144, 255);
+}
+
+.Menu{
     position: fixed;
     top: 0;
     right: 0;
