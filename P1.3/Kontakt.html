@@ -29,16 +29,16 @@
     <h1>Kontakt</h1>
     <form id="kontaktformular">
       <div>
-        <label for="name">Name:</label><br>
-        <input class="grey" type="text" id="fname" name="name">
+        <input type="text" id="name" name="name" placeholder="Name">
       </div>
       <div>
-        <label for="email">Enter your E-Mail:</label><br>
-        <input class="grey" type="email" id="email" name="email">
+        <input type="email" id="email" name="email" class="placeholder" placeholder="E-Mail">
       </div>
       <div>
-        <textarea class="grey" name="message" rows="10" cols="30" class="placeholder"
-          placeholder="Message me!"></textarea>
+        <textarea class="placeholder" placeholder="Message me!"></textarea>
+      </div>
+      <div>
+        <p id="grey">Kleiner grauer Text.</p>
       </div>
       <div>
         <input class="grey" type="submit" value="Abschicken" onclick="alert('Sorry Im not there yet')" />

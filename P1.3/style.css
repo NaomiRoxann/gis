@@ -60,12 +60,20 @@ a{
     background-color: transparent;
     padding: 0 0 0 10px;
 }
-.grey{
+input{
+    background-color: rgb(177, 177, 177);
+    /*placeholder: black*/
+}
+textarea{
     background-color: rgb(177, 177, 177);
 }
-.placeholder{
-    color: floralwhite;
+#grey{
+    color: grey;
+    font-size: 8px;
 }
+/*.placeholder{
+    color: rgb(255, 170, 0);
+}*/
 ul{
     column-count: 4;
     column-width: 20px;
