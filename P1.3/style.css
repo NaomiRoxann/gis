@@ -88,13 +88,3 @@ textarea{
 ::placeholder {
   color: rgb(255, 206, 133);
 }
-ul{
-    padding: 0;
-    column-count: 4;
-    column-width: 20px;
-    list-style-type: none;
-}
-li{
-    padding: 10px;
-    -webkit-column-break-inside: avoid;
-}
