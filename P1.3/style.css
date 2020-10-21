@@ -17,6 +17,10 @@ header{
 .hP{
     text-align: center;
 }
+.socials{
+    width: 25%;
+    float:left;
+}
 main{
     width: 400px;
     margin-left: auto;
@@ -35,6 +39,9 @@ h3{
 a{
     text-decoration: none;
     color: hotpink;
+}
+nav{
+    padding: 20px 0 0 0;
 }
 .Menu{
     position: fixed;
