@@ -62,7 +62,7 @@ nav{
     right: 30px;
     padding: 0 0 0 0;
     width: fit-content;
-    height: 30px;
+    height: fit-content;
     background-color: rgb(227, 200, 166);
     border-radius: 0 0 10px 10px;
     color: rgb(221, 74, 255);
