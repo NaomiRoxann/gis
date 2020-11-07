@@ -67,7 +67,7 @@ main{
     width: 100%x;
     margin-left: auto;
     margin-right: auto;
-    padding: 0 50px 50px 50px;
+    padding: 0 50px 100px 50px;
 }
 h1{
     display: flex;
@@ -136,17 +136,16 @@ main audio{
 #kontaktformular{
     border-style: groove;
     border-width: 5px;
-    border-color: rgb(144, 144, 255);
+    border-color: slateblue;
     padding: 20px;
 }
 input{
-    font-size: 20px;
-    background-color: rgb(177, 177, 177);
+    background-color: rgb(219, 219, 219);
 }
 textarea{
-    font-size: 20px;
     width: 100%;
-    background-color: rgb(177, 177, 177);
+    height: 50%;
+    background-color: rgb(219, 219, 219);
     color: honeydew;
 }
 #grey{
@@ -154,5 +153,5 @@ textarea{
     font-size: 8px;
 }
 ::placeholder {
-  color: rgb(255, 206, 133);
+  color: slateblue;
 }
