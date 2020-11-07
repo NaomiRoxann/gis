@@ -14,47 +14,7 @@ header{
     background-size: 1200px;
     background-repeat: no-repeat;
     background-position: center -800px;
-    padding: 0 50px 250px 50px;
-}
-
-.hP{
-    text-align: center;
-    margin-top: 80px;
-    font-size: xx-large;
-}
-.socials{
-    margin: 30px 0 0 0;
-    width: 20%;
-    display: inline-block;
-    text-align: center;
-}
-.SMnav{
-    margin: auto;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-}
-main{
-    width: 400px;
-    margin-left: auto;
-    margin-right: auto;
-}
-h1{
-    color: slateblue;
-    text-shadow: 2px 2px 5px lightslategray;
-    padding: 0 0 20px 0;
-}
-h3{
-    color: coral;
-    text-transform: capitalize;
-    padding: 50px 0 0 0;
-}
-a{
-    text-decoration: none;
-    color: hotpink;
-}
-nav{
-    padding: 20px 0 0 0;
+    padding: 0 50px 200px 50px;
 }
 .Menu{
     position: fixed;
@@ -78,9 +38,99 @@ nav{
 .navlink:active{
     color: darkgoldenrod;
 }
-#Portfolionav{
-    padding: 0 0 0 10px;
+
+
+.socials{
+    margin: 50px 0 0 0;
+    width: 18%;
+    display: inline-block;
+    text-align: center;
 }
+.SMnav{
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+.hP{
+    text-align: center;
+    margin-top: 80px;
+    font-size: xx-large;
+    color: rgb(73, 73, 73);
+}
+
+
+main{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 150px;
+    color: slateblue;
+    text-shadow: 2px 2px 5px lightslategray;
+    padding: 0 0 20px 0;
+}
+a{
+    text-decoration: none;
+    color: hotpink;
+}
+#Portfolionav{
+    display: block;
+}
+#Portfolionav p{
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+}
+#Portfolionav ul{
+    display: flex;
+    justify-content: space-around;
+    font-size: medium;
+}
+
+section{
+    display: block;
+
+}
+h3{
+    display: flex;
+    font-size: xx-large;
+    color: coral;
+    text-transform: uppercase;
+    padding: 50px 0 0 0;
+}
+main div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+main img{
+    width: 50%;
+    height: 50%;
+    float: left;
+    padding: 5px;
+}
+main video{
+    width: 100%;
+    height: 100%;
+    float: left;
+    padding: 5px;
+}
+main audio{
+    width: 100%;
+    height: 100%;
+    float: left;
+    padding: 5px;
+}
+
+
+
+
 #kontaktformular{
     border-style: groove;
     border-width: 5px;
