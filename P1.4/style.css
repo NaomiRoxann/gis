@@ -82,39 +82,12 @@ header{ /*Smarphones bis iPad Pro 12.9 inch*/
     width: 18%;
     display: inline-block;
     text-align: center;
+    font-size: 2vw;
 }
 .socials img{
-    width: 50px;
+    width: 5vw;
 }
-@media screen and (min-width: 1025px) { /*720p HD TV*/
-    .socials{
-    font-size: 20px;
-}
-    .socials img{
-    width: 50px;
-}}
-@media screen and (min-width: 1324px) { /*HiDPI Laptop*/
-    .socials{
-    font-size: 20px;
-}
-    .socials img{
-    width: 50px;
-}}
-@media screen and (min-width: 1624px) { /*1080p Full HD TV*/
-    .socials{
-    font-size: 30px;
-}
-    .socials img{
-    width: 75px;
-}}
-@media screen and (min-width: 3624px) { /*4K Ultra HD TV*/
-    .socials{
-    font-size: 45px;
-}
-    .socials img{
-    width: 140px;
-}
-}
+
 .SMnav{
     margin: auto;
     text-align: center;
@@ -126,28 +99,24 @@ header{ /*Smarphones bis iPad Pro 12.9 inch*/
 .hP{
     text-align: center;
     margin-top: 80px;
-    font-size: xx-large;
+    font-size: 3vw;
     color: rgb(73, 73, 73);
 }
 @media screen and (min-width: 1025px) { /*720p HD TV*/
     .hP{
     margin-top: 70px;
-    font-size: 45px;
 }}
 @media screen and (min-width: 1324px) { /*HiDPI Laptop*/
     .hP{
     margin-top: 90px;
-    font-size: 50px;
 }}
 @media screen and (min-width: 1624px) { /*1080p Full HD TV*/
     .hP{
     margin-top: 100px;
-    font-size: 50px;
 }}
 @media screen and (min-width: 3624px) { /*4K Ultra HD TV*/
     .hP{
     margin-top:200px;
-    font-size: 100px;
 }}
 
 main{
@@ -159,7 +128,7 @@ main{
 h1{
     display: flex;
     justify-content: center;
-    font-size: 150px;
+    font-size: 15vw;
     color: slateblue;
     text-shadow: 2px 2px 5px lightslategray;
     padding: 0 0 20px 0;
@@ -174,12 +143,12 @@ a{
 #Portfolionav p{
     display: flex;
     justify-content: center;
-    font-size: larger;
+    font-size: 2.5vw;
 }
 #Portfolionav ul{
     display: flex;
     justify-content: space-around;
-    font-size: medium;
+    font-size: 2vw;
 }
 
 section{
@@ -188,7 +157,7 @@ section{
 }
 h3{
     display: flex;
-    font-size: xx-large;
+    font-size: 3vw;
     color: coral;
     text-transform: uppercase;
     padding: 50px 0 0 0;
