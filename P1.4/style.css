@@ -15,27 +15,27 @@ header{ /*Smarphones bis iPad Pro 12.9 inch*/
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center -600px;
-    padding: 0 50px 200px 50px;
+    padding: 0 50px 220px 50px;
 }
 @media screen and (min-width: 1025px) { /*720p HD TV*/
     header{
     background-position: center -850px;
-    padding: 0 50px 150px 50px;
+    padding: 0 50px 170px 50px;
 }}
 @media screen and (min-width: 1324px) { /*HiDPI Laptop*/
     header{
     background-position: center -950px;
-    padding: 0 50px 200px 50px;
+    padding: 0 50px 220px 50px;
 }}
 @media screen and (min-width: 1624px) { /*1080p Full HD TV*/
     header{
     background-position: center -1350px;
-    padding: 0 50px 280px 50px;
+    padding: 0 50px 300px 50px;
 }}
 @media screen and (min-width: 3624px) { /*4K Ultra HD TV*/
     header{
     background-position: center -2800px;
-    padding: 0 50px 500px 50px;
+    padding: 0 50px 520px 50px;
 }}
 .Menu{
     position: fixed;
@@ -196,17 +196,18 @@ main audio{
     padding: 20px;
 }
 input{
+    font-size: 3vw;
     background-color: rgb(219, 219, 219);
 }
 textarea{
+    font-size: 3vw;
     width: 80%;
-    height: 80%;
     background-color: rgb(219, 219, 219);
     color: honeydew;
 }
 #grey{
     color: grey;
-    font-size: 8px;
+    font-size: 1vw;
 }
 ::placeholder {
   color: slateblue;
