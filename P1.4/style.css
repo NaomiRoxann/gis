@@ -10,13 +10,45 @@ body{
     
 }
 /*Wie krieg ich den Hintergrund(Kreis) ganz nach oben?*/
-header{
+header{ /*Smarphones bis iPad Pro 12.9 inch*/
     background-image: url('Circle.png');
-    background-size: 1200px;
+    background-size: 100%;
     background-repeat: no-repeat;
-    background-position: center -800px;
+    background-position: center -600px;
     padding: 0 50px 200px 50px;
 }
+@media screen and (min-width: 1025px) { /*720p HD TV*/
+    header{
+    background-image: url('Circle.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center -850px;
+    padding: 0 50px 150px 50px;
+}}
+@media screen and (min-width: 1324px) { /*HiDPI Laptop*/
+    header{
+    background-image: url('Circle.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center -950px;
+    padding: 0 50px 200px 50px;
+}}
+@media screen and (min-width: 1624px) { /*1080p Full HD TV*/
+    header{
+    background-image: url('Circle.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center -1350px;
+    padding: 0 50px 280px 50px;
+}}
+@media screen and (min-width: 3624px) { /*4K Ultra HD TV*/
+    header{
+    background-image: url('Circle.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center -2800px;
+    padding: 0 50px 500px 50px;
+}}
 .Menu{
     position: fixed;
     top: 0;
@@ -47,6 +79,38 @@ header{
     display: inline-block;
     text-align: center;
 }
+.socials img{
+    width: 50px;
+}
+@media screen and (min-width: 1025px) { /*720p HD TV*/
+    .socials{
+    font-size: 20px;
+}
+    .socials img{
+    width: 50px;
+}}
+@media screen and (min-width: 1324px) { /*HiDPI Laptop*/
+    .socials{
+    font-size: 20px;
+}
+    .socials img{
+    width: 50px;
+}}
+@media screen and (min-width: 1624px) { /*1080p Full HD TV*/
+    .socials{
+    font-size: 30px;
+}
+    .socials img{
+    width: 75px;
+}}
+@media screen and (min-width: 3624px) { /*4K Ultra HD TV*/
+    .socials{
+    font-size: 45px;
+}
+    .socials img{
+    width: 140px;
+}
+}
 .SMnav{
     margin: auto;
     text-align: center;
@@ -61,7 +125,26 @@ header{
     font-size: xx-large;
     color: rgb(73, 73, 73);
 }
-
+@media screen and (min-width: 1025px) { /*720p HD TV*/
+    .hP{
+    margin-top: 70px;
+    font-size: 45px;
+}}
+@media screen and (min-width: 1324px) { /*HiDPI Laptop*/
+    .hP{
+    margin-top: 90px;
+    font-size: 50px;
+}}
+@media screen and (min-width: 1624px) { /*1080p Full HD TV*/
+    .hP{
+    margin-top: 100px;
+    font-size: 50px;
+}}
+@media screen and (min-width: 3624px) { /*4K Ultra HD TV*/
+    .hP{
+    margin-top:200px;
+    font-size: 100px;
+}}
 
 main{
     width: 100%x;
