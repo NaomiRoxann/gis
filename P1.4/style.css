@@ -48,6 +48,12 @@ header{ /*Smarphones bis iPad Pro 12.9 inch*/
     border-radius: 0 0 10% 10%;
     color: rgb(221, 74, 255);
     font-size: 10px;
+}a{
+    text-decoration: none;
+    color: hotpink;
+}
+a:hover{
+    color: rgb(184, 11, 11);
 }
 .navlink{
     text-transform: uppercase;
@@ -69,9 +75,6 @@ header{ /*Smarphones bis iPad Pro 12.9 inch*/
     .Menu{
     font-size: 30px;
 }}
-.navlink:hover{
-    color: rgb(184, 11, 11);
-}
 .navlink:active{
     color: darkgoldenrod;
 }
@@ -94,8 +97,6 @@ header{ /*Smarphones bis iPad Pro 12.9 inch*/
     display: flex;
     justify-content: center;
 }
-
-
 .hP{
     text-align: center;
     margin-top: 70px;
@@ -115,6 +116,8 @@ header{ /*Smarphones bis iPad Pro 12.9 inch*/
     margin-top:200px;
 }}
 
+
+
 main{
     width: 100%x;
     margin-left: auto;
@@ -129,10 +132,7 @@ h1{
     text-shadow: 2px 2px 5px lightslategray;
     padding: 0 0 20px 0;
 }
-a{
-    text-decoration: none;
-    color: hotpink;
-}
+
 #Portfolionav{
     display: block;
 }
@@ -144,12 +144,11 @@ a{
 #Portfolionav ul{
     display: flex;
     justify-content: space-around;
-    transition: all 1s cubic-bezier(.37,1.65,.18,-0.27) 0s;
+    transition: font-size 1s linear 0s;
     font-size: 2vw;
 }
 #Portfolionav ul:hover{
     font-size: 3vw;
-    color: rgb(184, 11, 11);
 }
 
 section{
@@ -173,6 +172,17 @@ main img{
     height: 50%;
     float: left;
     padding: 5px;
+    animation-duration: 5s;
+    animation-name: pics;
+    animation-timing-function: ease-out;
+}
+@keyframes pics{
+    from{
+        margin-right: 100%;
+    }
+    to{
+        margin-right: 0%;
+    }
 }
 main video{
     width: 100%;
