@@ -144,7 +144,7 @@ a{
 #Portfolionav ul{
     display: flex;
     justify-content: space-around;
-    transition: all 1s ease 0s;
+    transition: all 1s cubic-bezier(.37,1.65,.18,-0.27) 0s;
     font-size: 2vw;
 }
 #Portfolionav ul:hover{
