@@ -144,6 +144,7 @@ a{
 #Portfolionav ul{
     display: flex;
     justify-content: space-around;
+    transition: all 1s ease 0s;
     font-size: 2vw;
 }
 #Portfolionav ul:hover{
