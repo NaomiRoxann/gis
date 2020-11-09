@@ -102,10 +102,6 @@ header{ /*Smarphones bis iPad Pro 12.9 inch*/
     font-size: 3vw;
     color: rgb(73, 73, 73);
 }
-@media screen and (min-width: 1025px) { /*720p HD TV*/
-    .hP{
-    margin-top: 70px;
-}}
 @media screen and (min-width: 1324px) { /*HiDPI Laptop*/
     .hP{
     margin-top: 90px;
@@ -149,6 +145,10 @@ a{
     display: flex;
     justify-content: space-around;
     font-size: 2vw;
+}
+#Portfolionav ul:hover{
+    font-size: 3vw;
+    color: rgb(184, 11, 11);
 }
 
 section{
@@ -215,4 +215,3 @@ textarea{
 ::placeholder {
   color: slateblue;
 }
-mo
