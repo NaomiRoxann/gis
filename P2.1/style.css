@@ -1,0 +1,228 @@
+html{
+    background-image: url(bg.png);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+body{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+/*Wie krieg ich den Hintergrund(Kreis) ganz nach oben?*/
+header{ /*Smarphones bis iPad Pro 12.9 inch*/
+    background-image: url('Circle.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center -600px;
+    padding: 0 50px 220px 50px;
+}
+@media screen and (min-width: 1025px) { /*720p HD TV*/
+    header{
+    background-position: center -850px;
+    padding: 0 50px 170px 50px;
+}}
+@media screen and (min-width: 1324px) { /*HiDPI Laptop*/
+    header{
+    background-position: center -950px;
+    padding: 0 50px 220px 50px;
+}}
+@media screen and (min-width: 1624px) { /*1080p Full HD TV*/
+    header{
+    background-position: center -1350px;
+    padding: 0 50px 300px 50px;
+}}
+@media screen and (min-width: 3624px) { /*4K Ultra HD TV*/
+    header{
+    background-position: center -2800px;
+    padding: 0 50px 520px 50px;
+}}
+.Menu{
+    position: fixed;
+    top: 0;
+    right: 3%;
+    padding: 0 0 0 0;
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(227, 200, 166);
+    border-radius: 0 0 10% 10%;
+    color: rgb(221, 74, 255);
+    font-size: 10px;
+}a{
+    text-decoration: none;
+    color: hotpink;
+}
+a:hover{
+    color: rgb(184, 11, 11);
+}
+.navlink{
+    text-transform: uppercase;
+    margin: 10px;
+}
+@media screen and (min-width: 1025px) { /*720p HD TV*/
+    .Menu{
+    font-size: 12px;
+}}
+@media screen and (min-width: 1324px) { /*HiDPI Laptop*/
+    .Menu{
+    font-size: 13px;
+}}
+@media screen and (min-width: 1624px) { /*1080p Full HD TV*/
+   .Menu{
+    font-size: 15px;
+}}
+@media screen and (min-width: 3624px) { /*4K Ultra HD TV*/
+    .Menu{
+    font-size: 30px;
+}}
+.navlink:active{
+    color: darkgoldenrod;
+}
+
+
+.socials{
+    margin: 50px 0 0 0;
+    width: 18%;
+    display: inline-block;
+    text-align: center;
+    font-size: 2vw;
+}
+.socials img{
+    width: 5vw;
+}
+
+.SMnav{
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.hP{
+    text-align: center;
+    margin-top: 70px;
+    font-size: 3vw;
+    color: rgb(73, 73, 73);
+}
+@media screen and (min-width: 1324px) { /*HiDPI Laptop*/
+    .hP{
+    margin-top: 90px;
+}}
+@media screen and (min-width: 1624px) { /*1080p Full HD TV*/
+    .hP{
+    margin-top: 100px;
+}}
+@media screen and (min-width: 3624px) { /*4K Ultra HD TV*/
+    .hP{
+    margin-top:200px;
+}}
+
+
+
+main{
+    width: 100%x;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 50px 100px 50px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 15vw;
+    color: slateblue;
+    text-shadow: 2px 2px 5px lightslategray;
+    padding: 0 0 20px 0;
+}
+
+#Portfolionav{
+    display: block;
+}
+#Portfolionav p{
+    display: flex;
+    justify-content: center;
+    font-size: 2.5vw;
+}
+#Portfolionav ul{
+    display: flex;
+    justify-content: space-around;
+    transition: font-size 1s linear 0s;
+    font-size: 2vw;
+}
+#Portfolionav ul:hover{
+    font-size: 3vw;
+}
+
+section{
+    display: block;
+
+}
+h3{
+    display: flex;
+    font-size: 3vw;
+    color: coral;
+    text-transform: uppercase;
+    padding: 50px 0 0 0;
+}
+main div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+main img{
+    width: 50%;
+    height: 50%;
+    float: left;
+    padding: 5px;
+    animation-duration: 5s;
+    animation-name: pics;
+    animation-timing-function: ease-out;
+}
+@keyframes pics{
+    from{
+        margin-right: 100%;
+    }
+    to{
+        margin-right: 0%;
+    }
+}
+main video{
+    width: 100%;
+    height: 100%;
+    float: left;
+    padding: 5px;
+}
+main audio{
+    width: 100%;
+    height: 100%;
+    float: left;
+    padding: 5px;
+}
+
+.text{
+    font-size: 1.5vw;
+    padding: 0 5%;
+}
+
+
+#kontaktformular{
+    border-style: groove;
+    border-width: 5px;
+    border-color: slateblue;
+    padding: 20px;
+}
+input{
+    font-size: 3vw;
+    background-color: rgb(219, 219, 219);
+}
+textarea{
+    font-size: 3vw;
+    width: 80%;
+    background-color: rgb(219, 219, 219);
+    color: honeydew;
+}
+#grey{
+    color: grey;
+    font-size: 1vw;
+}
+::placeholder {
+  color: slateblue;
+}
